@@ -1,0 +1,363 @@
+.game-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    text-align: center;
+    color: black;
+    background-color: forestgreen;
+    background-image: url('map2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-template-columns: 10% 80% 10%;
+    grid-template-rows: 50px auto 51px;
+}
+
+.game-logout-btn {
+    background-image: url('settingCog.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.game-logout-form {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    justify-self: end;
+}
+
+.game-game {
+    margin-top: 10px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    white-space: nowrap;
+}
+
+.game-wood, .game-stone, .game-food, .game-villagers, .game-soldiers {
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.5);
+    background-image: url('parchment.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    color: black;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 1px solid black;
+    font-size: 1.2rem;
+}
+
+.game-wood span {
+    background-image: url('logs.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding-bottom: 14px;
+    margin-right: 5px;
+}
+
+.game-stone span {
+    background-image: url('granite.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding-bottom: 14px;
+    margin-right: 5px;
+}
+
+.game-food span {
+    background-image: url('bread.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding-bottom: 14px;
+    margin-right: 5px;
+}
+
+.game-villagers span {
+    background-image: url('farmer.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding-bottom: 14px;
+    margin-right: 5px;
+}
+
+.game-soldiers span {
+    background-image: url('warrior.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    padding-bottom: 14px;
+    margin-right: 5px;
+}
+
+.game-toolbar {
+    background-image: url('parchmentBigger.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: black;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.game-messenger {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-image: url('mail.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25px;
+    color: black;
+    border-left: 1px solid black;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    border-right: 1px solid black;
+}
+
+.game-world {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 20px;
+    background-image: url('earth.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25px;
+    color: black;
+    border-left: 1px solid black;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    border-right: 1px solid black;
+}
+
+.game-screen {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    background-color: black;
+    background-image: url('map.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.game-wall {
+    background-image: url('woodBigger.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: 1px solid black;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.game-screen-1, .game-screen-2, .game-screen-3, .game-screen-4, .game-screen-5, .game-screen-6, .game-screen-7, .game-screen-8, .game-screen-9, .game-screen-10, .game-screen-11, .game-screen-12, .game-screen-13, .game-screen-14, .game-screen-15, .game-screen-16, .game-screen-17, .game-screen-18, .game-screen-19, .game-screen-20, .game-screen-21, .game-screen-22, .game-screen-23, .game-screen-24, .game-screen-25 {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.game-screen-1-s, .game-screen-2-s, .game-screen-3-s, .game-screen-4-s, .game-screen-5-s, .game-screen-6-s, .game-screen-7-s, .game-screen-8-s, .game-screen-9-s, .game-screen-10-s, .game-screen-11-s, .game-screen-12-s, .game-screen-13-s, .game-screen-14-s, .game-screen-15-s, .game-screen-16-s, .game-screen-17-s, .game-screen-18-s, .game-screen-19-s, .game-screen-20-s, .game-screen-21-s, .game-screen-22-s, .game-screen-23-s, .game-screen-24-s, .game-screen-25-s {
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    width: 100%;
+    height: 100%;
+}
+
+.game-loading {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.game-loading h1 {
+    color: white;
+    font-size: 5rem;
+}
+
+.game-builder {
+    cursor: pointer;
+    background-image: url('hammer.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25px;
+    color: black;
+    border-left: 1px solid black;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    border-right: 1px solid black;
+    margin-left: 20px;
+    margin-right: 10px;
+    justify-self: start;
+}
+
+input.game-builder[type=checkbox]:checked {
+    transform: rotate(-90deg);
+}
+
+input.game-world[type=checkbox]:checked {
+    transform: rotate(-90deg);
+}
+
+input.game-messenger[type=checkbox]:checked {
+    transform: rotate(-90deg);
+}
+
+.game-screen-builder {
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin: 10px;
+    background-color: white;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.game-screen-builder div h2{
+    color: black;
+    font-size: 2rem;
+    border-bottom: 1px solid black;
+}
+
+.builder-defence {
+    width: 33%;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.builder-economy {
+    width: 34%;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.builder-offence {
+    width: 33%;
+}
+
+.builder-house {
+    background-image: url('houseLvl1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+
+.builder-farm {
+    background-image: url('farmLvl1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+
+.builder-stone-quarry {
+    background-image: url('mineLvl1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25%;
+}
+
+.builder-wood-cutter {
+    background-image: url('lumberjackLvl1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+
+.builder-tower {
+    background-image: url('towerLvl1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+
+.builder-defence-shop {
+    background-image: url('defenceshopLvl1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+
+.builder-commander {
+    background-image: url('commanderLvl1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 25%;
+    border-bottom: 1px solid black;
+}
+
+.game-screen-world {
+    display: grid;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+}
+
+.game-screen-world div{
+    background-image: url('villageLvl1.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: red;
+}

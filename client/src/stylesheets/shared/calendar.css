@@ -1,0 +1,123 @@
+.calendar-wrapper button {
+    display: flex;
+    color: black;
+    outline: 1px solid black;
+    padding: 5px;
+}
+
+.calendar-wrapper button:hover {
+    background-color: lightgray;
+}
+
+.calendar-wrapper h3 {
+    color: black;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.calendar-wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    grid-template-rows: repeat(7, 50px);
+    gap: 1px;
+}
+
+.month {
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    width: 210px;
+    justify-self: center;
+    align-self: center;
+}
+
+.day {
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    width: fit-content;
+    justify-self: center;
+    align-self: center;
+}
+
+.day-tab {
+    margin-top: 25px;
+    display:flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.month-left, .month-right {
+    color: black;
+    outline: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+    justify-self: center;
+    align-self: center;
+    padding: 3px;
+    border-radius: 6px;
+    background-color: lightgray;
+}
+
+.month-tab {
+    margin-top: 25px;
+    display:flex;
+    flex-direction: row;
+    column-gap: 20px;
+}
+
+.dayCalendar-wrapper {
+    margin-top: 5px;
+}
+
+.dayCalendar-wrapper button {
+    color: black;
+    margin: 10px;
+    outline: 1px solid black;
+    padding: 10px;
+}
+
+.dayCalendar-wrapper button:hover {
+    background-color:lightgray;
+}
+
+.dayCalendar-wrapper button:disabled {
+    background-color:lightgray;
+    cursor: not-allowed;
+}
+
+.day-button:disabled {
+    background-color:lightgray;
+    cursor: not-allowed;
+}
+
+.adb1, .adb2, .adb3, .adb4, .adb5, .adb6{
+    outline: 1px solid black;
+    color: black;
+    font-size: 20px;
+    padding: 1px;
+    margin: 1px;
+    width: 175px;
+}
+
+.address-form {
+    text-align: center;
+}
+
+.address-form button {
+    outline: 1px solid black;
+    color: black;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+}
+
+.address-form button:hover {
+    background-color: lightgray;
+}
+
+.address-form button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+}

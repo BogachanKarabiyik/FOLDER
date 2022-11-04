@@ -1,0 +1,159 @@
+.login-register-wrapper {
+    background-image: url('landscape0.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.login-register-form {
+    background-image: url('wood0.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.login-register-title {
+    background-image: url('banner0.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: -80px;
+    padding: 80px;
+    padding-bottom: 130px;
+    white-space: nowrap;
+}
+
+.login-C1, .login-o1, .login-n1, .login-q1, .login-u1, .login-e1, .login-r1, .login-o2, .login-r2, .login-K1, .login-i1, .login-n2, .login-g1, .login-s1 {
+    display: inline-block;
+    font-size: 3rem;
+    color: black;
+}
+
+.login-C1 {
+    transform: translate(-1px, 1.5px) rotate(-9deg);
+}
+.login-o1 {
+    transform: translate(-1px, 0px) rotate(3deg);
+}
+.login-n1 {
+    transform: translate(-1px, 2px) rotate(8deg);
+}
+.login-q1 {
+    transform: translate(-1px, 5.5px) rotate(11deg);
+}
+.login-u1 {
+    transform: translate(-1px, 9px) rotate(9deg);
+}
+.login-e1 {
+    transform: translate(-1px, 12px) rotate(7deg);
+}
+.login-r1 {
+    transform: translate(-1px, 13px) rotate(3deg);
+}
+.login-o2 {
+    transform: translate(-1px, 12.5px) rotate(-4deg);
+}
+.login-r2 {
+    transform: translate(-1px, 11px) rotate(-7deg);
+}
+.login-K1 {
+    transform: translate(1px, 7px) rotate(-10deg);
+}
+.login-i1 {
+    transform: translate(1px, 3px) rotate(-8deg);
+}
+.login-n2 {
+    transform: translate(1px, 1px) rotate(-7deg);
+}
+.login-g1 {
+    transform: translate(1px, 0px) rotate(3deg);
+}
+.login-s1 {
+    transform: translate(1px, 2.5px) rotate(10deg);
+}
+
+.login-register-input {
+    color: black;
+    background-color: white;
+    font-size: 1.5rem;
+    box-shadow: 4px 4px black;
+    border: 1px solid black;
+    padding: 2px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.login-register-input::placeholder {
+    color: black;
+}
+
+.login-register-input:hover::placeholder {
+    color: darkgray;
+}
+
+.login-register-input:focus::placeholder {
+    color: darkgray;
+}
+
+.login-register-input:hover {
+    box-shadow: 4px 4px brown;
+}
+
+.login-register-input:focus {
+    box-shadow: 4px 4px brown;
+}
+
+.login-register-login-btn {
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 47.5%;
+    background-color: #198c19;
+    margin-right: 2.5%;
+    box-shadow: 4px 4px black;
+}
+
+.login-register-login-btn:hover {
+    background-color: #4ca64c;
+    box-shadow: 4px 4px brown;
+}
+
+.login-register-login-btn:active {
+    background-color: #7fbf7f;
+}
+
+.login-register-register-btn {
+    color: black;
+    border: 1px solid black;
+    font-weight: bold;
+    font-size: 1.5rem;
+    width: 47.5%;
+    background-color: #6666ff;
+    margin-left: 2.5%;
+    box-shadow: 4px 4px black;
+}
+
+.login-register-register-btn:hover {
+    background-color: #9999ff;
+    box-shadow: 4px 4px brown;
+}
+
+.login-register-register-btn:active {
+    background-color: #ccccff;
+}
+
+.login-register-errors{
+    color: brown;
+    text-shadow: 1px 1px white;
+}
